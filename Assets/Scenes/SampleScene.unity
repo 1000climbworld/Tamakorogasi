@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 280158137}
   - component: {fileID: 280158136}
   m_Layer: 5
-  m_Name: TimeText
+  m_Name: Time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -379,9 +379,9 @@ RectTransform:
   m_Father: {fileID: 1431005981}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -30}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -185, y: -30}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280158136
@@ -404,7 +404,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: f1129e43a359846ecab08562a1da342f, type: 3}
+    m_Font: {fileID: 12800000, guid: 61b68814e205a459c888a25053569680, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -1056,8 +1056,8 @@ GameObject:
   - component: {fileID: 1513639772}
   - component: {fileID: 1513639771}
   - component: {fileID: 1513639770}
-  - component: {fileID: 1513639774}
   - component: {fileID: 1513639775}
+  - component: {fileID: 1513639774}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
