@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour {
 
-    public float countTime = 60;
+    public float countTime = 100;
     int seconds;
 
-	void Update () {
+	void FixedUpdate () {
         if(countTime >= 0){
             countTime -= Time.deltaTime;
             seconds = (int)countTime;
-            GetComponent<Text>().text = seconds.ToString();
+            GetComponent<Text>().text = "Time:   "+ seconds.ToString();
         }
     }
 }
